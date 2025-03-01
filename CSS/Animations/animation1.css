@@ -1,0 +1,58 @@
+.title {
+    animation: moveToDown 1s ease-in-out 1 forwards;
+}
+.how {
+    animation: moveToUp 1s ease-in-out  1 forwards;
+}
+.logo img {
+    animation: opacity 1s ease-in-out 1 forwards;
+}
+
+@keyframes moveToDown {
+    0% {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToUp {
+    0% {
+        transform: translateY(10vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(-10vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes moveToRight {
+    0% {
+        transform: translateX(10vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

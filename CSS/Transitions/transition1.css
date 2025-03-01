@@ -1,0 +1,8 @@
+button {
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4b535a;
+}
